@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:paddingLeft="40dp"
+    android:paddingRight="40dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Graphical Primitives"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:layout_marginBottom="30dp"/>
+
+    <!-- Rectangle -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rectangle"
+        android:textSize="18sp"/>
+    <View
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="#FF0000"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Square -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Square"
+        android:textSize="18sp"/>
+    <View
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#FF0000"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Circle -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Circle"
+        android:textSize="18sp"/>
+    <View
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/circle"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Ellipse -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ellipse"
+        android:textSize="18sp"/>
+    <View
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:background="@drawable/circle"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Line -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Line"
+        android:textSize="18sp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#000000"/>
+
+</LinearLayout>
